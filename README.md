@@ -13,7 +13,7 @@
 
 ## 项目结构
 
-douBanDataAnalysis/
+```douBanDataAnalysis/
 ├─ .gitignore(自动忽略.venv)
 ├─ README.md
 ├─ requirements.txt
@@ -35,6 +35,7 @@ douBanDataAnalysis/
 └─ tests/                 # 单元测试
 ├─ **init**.py
 └─ main.py
+```
 
 ---
 
