@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdm.lock
+*.env
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# PyCharm
+.idea/
+
+# Mac / Linux
+.DS_Store
+
+# Logs
+*.log
