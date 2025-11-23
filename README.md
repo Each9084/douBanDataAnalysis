@@ -14,27 +14,27 @@
 ## 项目结构
 
 douBanDataAnalysis/
- ├─ .gitignore(自动忽略.venv)
- ├─ README.md
- ├─ requirements.txt
- ├─ data/
- │   ├─ raw/               # 爬取的原始 CSV
- │   └─ processed/         # 清洗后的数据
- ├─ src/
- │   ├─ scraper/           # 爬虫模块
- │   │   ├─ **init**.py
- │   │   └─ douban_scraper.py
- │   ├─ clean/             # 数据清洗模块
- │   │   ├─ **init**.py
- │   │   └─ clean_data.py
- │   ├─ analysis/          # 数据分析模块
- │   │   ├─ **init**.py
- │   │   └─ analyze.py
- │   └─visualization/     # 可视化模块
- │   
- └─ tests/                 # 单元测试
- ├─ **init**.py
- └─ main.py
+├─ .gitignore(自动忽略.venv)
+├─ README.md
+├─ requirements.txt
+├─ data/
+│   ├─ raw/               # 爬取的原始 CSV
+│   └─ processed/         # 清洗后的数据
+├─ src/
+│   ├─ scraper/           # 爬虫模块
+│   │   ├─ **init**.py
+│   │   └─ douban_scraper.py
+│   ├─ clean/             # 数据清洗模块
+│   │   ├─ **init**.py
+│   │   └─ clean_data.py
+│   ├─ analysis/          # 数据分析模块
+│   │   ├─ **init**.py
+│   │   └─ analyze.py
+│   └─visualization/     # 可视化模块
+│   
+└─ tests/                 # 单元测试
+├─ **init**.py
+└─ main.py
 
 ---
 
