@@ -33,7 +33,7 @@
 │   └─visualization/     # 可视化模块
 │   
 └─ tests/                 # 单元测试
-├─ **init**.py
+├─ requirements.txt      #依赖文件
 └─ main.py
 ```
 
